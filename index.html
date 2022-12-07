@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online shop</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/aos.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <h1 class="visually-hidden">Main page</h1>
+
+  <header class="site-header py-4 border-bottom">
+    <div class="container">
+      <div class="header-box">
+        <a class="link-lg" href="./index.html">
+          <img src="./images/logo.svg" alt="">
+        </a>
+        <div class="header-right">
+          <button class="korzinka" type="button"></button>
+          <a class="rs-link" href="./registor.html">Sign up</a>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="section py-4">
+    <section class="hero">
+      <div class="container">
+        <h2 class="mb-4">Our products</h2>
+          <ul class="list-unstyled row js-product-list">
+
+          </ul>
+        </div>
+    </section>
+  </main>
+
+
+  <template class="item-temp">
+    <li class="product-item col-12 col-md-6 col-lg-4 col-xl-3 mb-4" data-aos="fade-up">
+      <div class="w-100 item-br border rounded-2 p-3 d-flex flex-column justify-content-between align-items-center">
+        <img class="product-img border-bottom" src="https://via.placeholder.com/150" alt="">
+        <h3 class="product-name">Shinshila</h3>
+        <p class="product-desc">Lee Pucker design. Leather botinki for handsome designers. Free shipping.</p>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="d-inline-block">
+            <span><strong>$</strong></span>
+            <strong><span class="product-price">2.58</span></strong>
+          </div>
+          <div class=" d-flex justify-content-end d-inline-block button-box">
+            <button class="btn-add" type="button">Sell</button>
+          </div>
+        </div>
+
+      </div>
+    </li>
+  </template>
+
+
+  <script src="./js/aos.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Login</title>
+</head>
+<body>
+
+  <main class="site-main">
+    <section class="reseption">
+      <div class="container">
+        <div class="reseption-box">
+          <h2 class="form-title">
+            Log in
+          </h2>
+          <form class="js-form" >
+            <div class="form-label">
+              <input class="js-email-input form-control-st" type="email" name="user_email" placeholder="Email" aria-label="Email" required>
+              <span class="fullname-span">Looks like this is not an email</span>
+            </div>
+            <div class="form-label">
+              <input class="js-password form-control-st" type="password" name="user_password" minlength="6"  placeholder="Password" aria-label="Password" required>
+              <span class="fullname-span">Password cannot be empty</span>
+            </div>
+
+            <div class="btn-box">
+              <button class="btn-registor" type="submit">Log in</button>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+<script src="./js/login.js"></script>
+</body>
+</html>
